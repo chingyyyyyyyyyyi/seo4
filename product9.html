@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零食樂園 Snack Paradise | 炫光溜溜球</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="images/logo.png" alt="零食樂園 Logo" onerror="this.src='https://via.placeholder.com/50'">
+                <span class="logo-text">Snack Paradise</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="about.html">公司簡介</a></li>
+                    <li><a href="snacks.html">零食</a></li>
+                    <li><a href="candies.html">糖果</a></li>
+                    <li><a href="toys.html" class="active">玩具</a></li>
+                    <li><a href="others.html">其它類</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="product-detail-container animate-in">
+            <div class="product-detail-image">
+                <img src="images/snack_chips.png" alt="炫光溜溜球" onerror="this.src='https://via.placeholder.com/400'">
+            </div>
+            <div class="product-detail-info">
+                <span class="category-tag" style="position: relative; display: inline-block; width: max-content; margin-bottom: 1rem; top: 0; right: 0;">玩具</span>
+                <h1>炫光溜溜球</h1>
+                <div class="price">$120</div>
+                <p>專業級金屬材質，轉動時帶有酷炫燈光效果，適合各種花式技巧。</p>
+                <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <input type="number" value="1" min="1" style="width: 80px; padding: 0.8rem; border-radius: 10px; border: 2px solid #ddd; font-size: 1.1rem; text-align: center;">
+                    <button class="btn" onclick="alert('已加入購物車！')">加入購物車</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 零食樂園 Snack Paradise. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
